@@ -1,0 +1,12 @@
+@media screen and (min-height: 830px) {
+  body {
+    background: #fff;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    padding-top: 40px;
+    background: rgba(225, 245, 196, 0.35);
+  }
+}

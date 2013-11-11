@@ -1,0 +1,20 @@
+
+@import 'brand.less';
+
+//Used to fix footer on Contacts page if too short.
+
+@media screen and (min-height:830px){
+  
+  body {
+    background: #fff;
+    //position: relative;
+  }
+
+  footer{
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    padding-top: 40px;
+    background: fadeout(@light-green, 65%);
+  }
+}

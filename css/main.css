@@ -107,7 +107,7 @@ header nav ul li a.active {
 /* HEADER END */
 /* HERO START */
 .hero {
-  padding: 60px 0 0;
+  padding: 70px 0 0;
   float: left;
   display: inline-block;
   width: 100%;
@@ -233,8 +233,8 @@ section.contact form label .labelappend {
   width: 15%;
   color: #000;
 }
-section.contact form label input {
-  margin: 20px 0 10px -5px;
+section.contact form label input,
+section.contact form label textarea {
   padding: 15px;
   width: 70%;
   border: 1px solid #cbee98;
@@ -244,13 +244,20 @@ section.contact form label input {
   -webkit-appearance: none;
   font-size: 1.2em;
 }
+section.contact form label input {
+  margin: 20px 0 10px -5px;
+}
+section.contact form label textarea {
+  margin: 20px 0 -35px -5px;
+  resize: vertical;
+}
 section.contact form input[type="submit"] {
   float: left;
   display: inline-block;
   width: 20%;
   margin: 0 1.1%;
   float: right;
-  margin: 10px 15% 0 0;
+  margin: 40px 15% 0 0;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -468,14 +475,15 @@ footer ul li a img:hover {
     width: 100%;
     padding: 10px;
   }
-  section.contact form label input {
+  section.contact form label input,
+  section.contact form label textarea {
     margin-left: 0px;
     margin-top: -5px;
     width: 100%;
   }
   section.contact form input[type="submit"] {
     width: 100%;
-    margin: 20px 0 0 0;
+    margin: 50px 0 0 0;
     float: none;
   }
   /* CONTACT END */
