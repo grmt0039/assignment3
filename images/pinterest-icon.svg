@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px"
+	 viewBox="5 10 50 50" enable-background="new 5 10 50 50" xml:space="preserve">
+<title>Pinterest</title>
+<description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Pinterest" sketch:type="MSArtboardGroup">
+		<g sketch:type="MSLayerGroup">
+			<path sketch:type="MSShapeGroup" fill="#CB2027" d="M6.852,35.159c0-13.719,10.778-24.841,24.074-24.841S55,21.44,55,35.159
+				C55,48.878,44.222,60,30.926,60S6.852,48.878,6.852,35.159z"/>
+			<path id="Path" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M20.682,31.562c0,2.734,1.003,5.167,3.155,6.074
+				c0.353,0.148,0.669,0.005,0.771-0.397c0.071-0.28,0.24-0.983,0.315-1.276c0.103-0.399,0.063-0.539-0.222-0.886
+				c-0.62-0.756-1.017-1.733-1.017-3.118c0-4.019,2.914-7.615,7.586-7.615c4.138,0,6.411,2.609,6.411,6.093
+				c0,4.584-1.966,8.454-4.885,8.454c-1.612,0-2.819-1.376-2.432-3.063c0.463-2.014,1.359-4.188,1.359-5.642
+				c0-1.301-0.677-2.387-2.078-2.387c-1.647,0-2.972,1.759-2.972,4.115c0,1.501,0.492,2.516,0.492,2.516s-1.687,7.373-1.982,8.664
+				c-0.588,2.571-0.088,5.724-0.046,6.042c0.025,0.188,0.26,0.233,0.366,0.091c0.152-0.204,2.114-2.705,2.782-5.203
+				c0.188-0.707,1.084-4.37,1.084-4.37c0.535,1.054,2.1,1.982,3.764,1.982c4.953,0,8.314-4.66,8.314-10.896
+				c0-4.717-3.872-9.109-9.756-9.109C24.374,21.63,20.682,27.046,20.682,31.562z"/>
+			<path id="reflec" sketch:type="MSShapeGroup" display="none" fill-opacity="0.08" d="M55,35.159C55,48.878,44.222,60,30.926,60
+				c-4.931,0-9.516-1.53-13.333-4.154l27.585-40.709C51.134,19.659,55,26.943,55,35.159z"/>
+		</g>
+	</g>
+</g>
+</svg>

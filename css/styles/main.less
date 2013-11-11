@@ -8,9 +8,10 @@
 }
 
 body {
-  //background: #fff;
   background: fadeout(@light-green, 65%);
   font-family: @bodyfontfamily;
+
+  //sets base font size to 10px for easy transition
   font-size: 62.5%;
   color: #000;
 }
@@ -38,6 +39,8 @@ header {
   
   h1 {
     .boxmodel(40%);
+    text-indent: -9999px;
+    background: url(../images/logos/3Peas.svg) no-repeat;
   }
 
   .menu-button {
@@ -68,7 +71,6 @@ header {
 /* HERO START */
 .hero{
   padding: 60px 0 0;
-  //background: fadeout(@light-green, 95%);
   .boxmodel(100%);
   img {
       width: 100%;
@@ -85,18 +87,26 @@ section.featured{
 
   ul{
     li.menu-item{
-      //.boxmodel(30%);
+      //.widthfloat(30%);
       .column(4);
       text-align:center;
 
       img {
-        max-width: 100%;
+        width: 100%;
       }
 
       div{
-        //background: fadeout(@light-green, 30%);
         background: fadeout(@orange, 30%);
         padding: 10px 0;
+
+        h3{
+          color: #fff;
+        }
+
+        p{
+          color: darken(@orange,20%);
+          font-weight: bold;
+        }
       }
     }
   }
@@ -115,22 +125,37 @@ section.menu-gallery{
 
   ul{
     li.menu-item{
-      .column(4);
+      //.column(4);
+      .widthfloat(30%);
       text-align:center;
       padding: 10px 0 30px;
 
       img {
-        max-width: 100%;
+        width: 100%;
       }
 
       div{
         background: fadeout(@yellow, 30%);
         padding: 10px 0;
 
+        h3{
+          color: #fff;
+        }
+
+        p{
+          
+          color: darken(@yellow,20%);
+          font-weight: bold;
+        }
+
       }
 
       &:nth-child(even) div{
           background: fadeout(@orange, 30%);
+
+          p{
+          color: darken(@orange,20%);
+        }
       }
 
     }
@@ -143,26 +168,19 @@ section.menu-gallery{
 /* ABOUT START */
 section.about{
   .boxmodel(100%);
-  //height: 420px;
   background: #fff;
   padding: 50px 0;
 
   article{
-    //div{
-      //.column(8);
-      overflow: hidden;
+    overflow: hidden;
 
-      img{
-        float: left;
-        padding-right: 20px;
-        max-width: 100%;
-      }
-    //}
+    img{
+      float: left;
+      padding-right: 20px;
+      max-width: 100%;
+    }
 
     ul {
-      //.column(4);
-      //height: 350px;
-
       li{
         padding-top: 30px;
 
@@ -177,7 +195,7 @@ section.about{
 
         &:last-child {
           img{
-            padding-bottom: 50px;
+            padding-bottom: 80px;
           }
         }
 
@@ -201,21 +219,19 @@ section.contact{
   height: 600px;
 
   form {
-    //width: 100%;
-    .boxmodel(100%);
+    width: 100%;
+    //.boxmodel(100%);
     text-transform: uppercase;
     font-size: 1.6em;
     font-family: @headingfontfamily;
     
     label {
-      //.widthfloat(25%);
       text-align: right;
       
       .labelappend {
         display: inline-block;
         padding: 11px;
         width:15%;
-        //background: @yellow;
         color: #000;
       }
       
@@ -224,8 +240,8 @@ section.contact{
         margin: 20px 0 10px -5px;
         padding: 15px;
         width: 70%;
-        border: 1px solid fadeout(@light-green, 30%);
-        background: #fff;
+        border: 1px solid darken(@light-green, 10%);
+        background: lighten(@light-green, 10%);
         color: darken(@green, 10%);
         font-family: @headingfontfamily;
         -webkit-appearance: none;
@@ -235,7 +251,7 @@ section.contact{
     input[type="submit"] {
       .widthfloat(20%);
       float: right;
-      margin-right: 15%;
+      margin: 10px 15% 0 0;
       .border-radius(8px);
       padding: 15px;
       border: 0 none;
@@ -264,11 +280,13 @@ footer{
 
   p {
     .column(8);
+    //.widthfloat(60%);
     padding-top: 20px;
   }
 
   ul {
     .column(4);
+    //.widthfloat(30%);
     float: right;
 
     li {
@@ -278,7 +296,7 @@ footer{
       a {
         img {
           //mixin for border radius used
-          .border-radius(10px);
+          .border-radius(25px);
 
           &:hover{
             background: lighten(@green,25%);
@@ -293,12 +311,14 @@ footer{
 
 
 
-/* MEDIA QUERY 650 - 967 PX */
-@media screen and (min-width:650px) and (max-width:967px){
+/* MEDIA QUERY 650 - 1024 PX for tablet and desktop */
+@media screen and (min-width:650px) and (max-width:1024px){
 
   .container{
     max-width: 85%;
   }
+
+
 
   /* ABOUT START */
   section.about{
@@ -307,7 +327,6 @@ footer{
     article{
       img{
           max-width: 50%;
-          //max-height: 40%;
       }
 
       ul {
@@ -326,16 +345,31 @@ footer{
 
 
 
+  /* MENU GALLERY START */
+  section.menu-gallery{
+    ul{
+      li.menu-item{
+        .column(6);
+        //width: 45%;
+      }
+    }
+  }
+  /* MENU GALLERY END */
+
+
+
   /* FOOTER START */
   footer{
-    padding: 40px 0;
+    //padding: 40px 0;
     
     p {
       .column(6);
+      //.widthfloat(50%);
     }
 
     ul {
       .column(5);
+      //.widthfloat(40%);
       float: right;
     }
   }
@@ -346,7 +380,7 @@ footer{
 
 
 
-/* MEDIA QUERY UNDER 650 PX */
+/* MEDIA QUERY UNDER 650 PX for phone */
 @media screen and (max-width:648px) {
   
   .container{
@@ -354,7 +388,7 @@ footer{
   }
 
 
-  h1, h2{
+  h2{
     text-align:center;
   }
 
@@ -364,7 +398,8 @@ footer{
   header {
     h1{
       .boxmodel(100%);
-      padding-bottom: 10px;
+      padding-bottom: 20px;
+      margin-left: 20%;
     }
 
     .menu-button {
@@ -425,6 +460,7 @@ footer{
     ul{
       li.menu-item{
         .column(12);
+        //width: 100%;
         padding:0;
 
         img {

@@ -13,11 +13,14 @@ p {
   font-size: 1.4em;
   line-height: 1.5em;
 }
+h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #bf6516;
+}
 h1,
-h2,
 h3,
 h4 {
-  font-family: Droid Sans, san-serif;
+  font-family: "Droid Sans", Arial, Helvetica, san-serif;
   font-weight: 700;
   line-height: 1em;
 }

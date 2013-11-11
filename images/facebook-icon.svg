@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px"
+	 viewBox="5 10 50 50" enable-background="new 5 10 50 50" xml:space="preserve">
+<title>Facebook</title>
+<description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Facebook" sketch:type="MSArtboardGroup">
+		<g sketch:type="MSLayerGroup">
+			<path sketch:type="MSShapeGroup" fill="#3B5998" d="M6.241,35.25c0-13.669,10.915-24.75,24.379-24.75
+				C44.085,10.5,55,21.581,55,35.25S44.085,60,30.62,60C17.156,60,6.241,48.919,6.241,35.25z"/>
+			<path id="Path" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M32.66,48.714V35.248h3.655l0.483-4.64H32.66l0.005-2.323
+				c0-1.21,0.114-1.858,1.823-1.858h2.285v-4.641h-3.656c-4.392,0-5.938,2.251-5.938,6.037v2.786h-2.737v4.641h2.737v13.465H32.66z"
+				/>
+			<path id="reflec" sketch:type="MSShapeGroup" display="none" fill-opacity="0.08" d="M55,35.25C55,48.919,44.085,60,30.62,60
+				c-4.993,0-9.636-1.524-13.501-4.14l27.935-40.56C51.085,19.807,55,27.064,55,35.25z"/>
+		</g>
+	</g>
+</g>
+</svg>
