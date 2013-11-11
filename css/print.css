@@ -1,0 +1,37 @@
+a {
+  color: #124f2c;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+}
+/*a:visited {
+        color: darken(@green, 25%);
+        text-decoration: none;
+}*/
+p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Droid Sans, san-serif;
+  font-weight: 700;
+  line-height: 1em;
+}
+h1 {
+  font-size: 3.0em;
+  line-height: 1.6em;
+}
+h2 {
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 1.8em;
+}
+h4 {
+  font-size: 1.6em;
+}
