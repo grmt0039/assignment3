@@ -431,6 +431,7 @@ footer ul li a img:hover {
   /* CONTACT START */
   section.contact {
     padding: 160px 0 30px;
+    height: 680px;
   }
   section.contact form label {
     width: 100%;
@@ -449,7 +450,7 @@ footer ul li a img:hover {
   }
   section.contact form input[type="submit"] {
     width: 100%;
-    margin: 0;
+    margin: 20px 0 0 0;
     float: none;
   }
   /* CONTACT END */
